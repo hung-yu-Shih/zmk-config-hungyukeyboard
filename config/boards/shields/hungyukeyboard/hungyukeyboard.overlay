@@ -3,11 +3,10 @@
 / {
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
-
         wakeup-source;
 
         input-gpios =
-            <&pro_micro 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+            <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 
     default_transform: keymap_transform {
