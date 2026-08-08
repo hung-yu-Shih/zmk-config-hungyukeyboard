@@ -1,0 +1,6 @@
+if SHIELD_HUNGYUKEYBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "Hungyu"
+
+endif
