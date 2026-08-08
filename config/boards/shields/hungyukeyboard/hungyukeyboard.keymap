@@ -7,7 +7,7 @@
 
         default_layer {
             bindings = <
-                &kp SPACE
+                &bt BT_CLR
             >;
         };
     };
