@@ -1,7 +1,8 @@
-﻿file_format: "1"
+file_format: "1"
+
 id: hungyukeyboard
 name: Hungyu Keyboard
 type: shield
-requires: [nice_nano_v2]
+
 features:
   - keys
